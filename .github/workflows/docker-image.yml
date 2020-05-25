@@ -15,6 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build -t local solutions/dotnet/.devcontainer
+      run: 'docker build -t local -f /.devcontainer/Dockerfile .'
+      working-directory: solutions/dotnet
     - name: Run tests
-      run: docker run -it local dotnet test **/*.Tests.csproj
+      run: 'docker run -it local dotnet test **/*.Tests.csproj'
