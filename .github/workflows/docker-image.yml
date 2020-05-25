@@ -21,9 +21,9 @@ jobs:
       uses: Secbyte/dotnet-sonarscanner@v2.2
       with:
         # Command to invoke build
-        buildCommand: 'dotnet build **/*.csproj'
+        buildCommand: dotnet build to-roman-numerals/tests/ToRomanNumerals.Tests/ToRomanNumerals.Tests.csproj
         # Command to invoke tests
-        testCommand: 'dotnet test **/*.Tests.csproj'
+        testCommand: dotnet test to-roman-numerals/tests/ToRomanNumerals.Tests/ToRomanNumerals.Tests.csproj
         # Specifies the key of the analyzed project in SonarQube
         projectKey: wulfland_CodingDojo
         # Specifies the name of the analyzed project in SonarQube
