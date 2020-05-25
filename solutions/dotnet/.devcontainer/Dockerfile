@@ -76,3 +76,8 @@ RUN apt-get update \
 
 # Switch back to dialog for any ad-hoc use of apt-get
 ENV DEBIAN_FRONTEND=dialog
+
+COPY . ./solutions
+WORKDIR /solutions/
+#RUN dotnet restore **/*.csproj
+ENTRYPOINT ["dotnet", "test", "to-roman-numerals/tests/ToRomanNumerals.Tests/ToRomanNumerals.Tests.csproj"]
