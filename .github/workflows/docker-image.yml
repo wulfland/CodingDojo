@@ -15,15 +15,28 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Build the Docker image
-      run: docker build -t local -f .devcontainer/Dockerfile .
-      working-directory: solutions/dotnet
-    - name: Run tests
-      run: docker run -t local
-    - name: SonarCloud Scan
-      uses: sonarsource/sonarcloud-github-action@master
+    - name: Setup .NET Core SDK
+      uses: actions/setup-dotnet@v1.4.0
       with:
-        projectBaseDir: solutions/dotnet
+        dotnet-version: 3.1
+    - name: dotnet-sonarscanner
+      uses: Secbyte/dotnet-sonarscanner@v2.2
+      with:
+        # Command to invoke build
+        buildCommand: 'dotnet build **/*.csproj'
+        # Command to invoke tests
+        testCommand: 'dotnet test **/*.Tests.csproj'
+        # Specifies the key of the analyzed project in SonarQube
+        projectKey: wulfland_CodingDojo
+        # Specifies the name of the analyzed project in SonarQube
+        projectName: CodingDojo
+        # Organisation
+        sonarOrganisation: wulfland-github
+        # Arguments to append to the begin command
+        beginArguments: >
+          /d:sonar.verbose="true"
+          /d:sonar.cs.opencover.reportsPaths='"/path/to/coverage.xml","/path/to/coverage.2.xml"'
+          /d:sonar.coverage.exclusions='"**/*.cs","**/*.md"'
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
