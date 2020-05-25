@@ -18,4 +18,4 @@ jobs:
       run: 'docker build -t local -f .devcontainer/Dockerfile .'
       working-directory: solutions/dotnet
     - name: Run tests
-      run: 'docker run -it local dotnet test **/*.Tests.csproj'
+      run: 'docker run -it local
