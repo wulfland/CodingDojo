@@ -5,6 +5,7 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
+    types: [opened, synchronize, reopened]
 
 jobs:
 
@@ -19,3 +20,10 @@ jobs:
       working-directory: solutions/dotnet
     - name: Run tests
       run: 'docker run -it local dotnet test **/*.Tests.csproj'
+    - name: SonarCloud Scan
+      uses: sonarsource/sonarcloud-github-action@master
+      with:
+        projectBaseDir: solutions/dotnet
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
