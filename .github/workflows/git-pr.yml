@@ -9,17 +9,18 @@ jobs:
     name: lala
     runs-on: ubuntu-latest
     steps:
-    - uses: marceloprado/has-changed-path@master
-      id: changed-git
-      with:
-        paths: solutions/git
-    - name: Add contributor to markdown
-      run: |
-        "test" >> solutions/git/pull-request-erstellen.md
-    - name: Commit change to master
-      run: | 
-        git config --global user.name '${GITHUB_ACTOR}' \
-        && git config --global user.email '${GITHUB_ACTOR}@users.noreply.github.com' \
-        && git add -A && git commit -m '$*' --allow-empty \
-        && git push -u origin HEAD"
+      - uses: actions/checkout@v2
+      - uses: marceloprado/has-changed-path@master
+        id: changed-git
+        with:
+          paths: solutions/git
+      - name: Add contributor to markdown
+        run: |
+          "test" >> solutions/git/pull-request-erstellen.md
+      - name: Commit change to master
+        run: | 
+          git config --global user.name '${GITHUB_ACTOR}' \
+          && git config --global user.email '${GITHUB_ACTOR}@users.noreply.github.com' \
+          && git add -A && git commit -m '$*' --allow-empty \
+          && git push -u origin HEAD"
     
