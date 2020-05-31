@@ -10,5 +10,4 @@ Außerdem zu üben, wie man im Bereich open Source Beiträge leistet.
 todo: Schritt für Schritt Anleitung
 
 ## Schüler
-
-@kaufm
+**Michael Kaufmann** @kaufm
