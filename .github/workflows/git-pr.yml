@@ -3,6 +3,7 @@ name: Git-PR-Kata
 on: 
   pull_request:
     types: opened
+    paths: solution/git
 
 jobs:
   my_job:
@@ -16,6 +17,7 @@ jobs:
           paths: solutions/git
       - name: Add contributor to markdown
         run: |
+          ls
           "test" >> solutions/git/pull-request-erstellen.md
       - name: Commit change to master
         run: | 
