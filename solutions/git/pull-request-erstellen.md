@@ -63,7 +63,7 @@ $ git push --set-upstream origin solution/git/_ihr_benutzername_
  auf _New pull request_. Prüfen Sie, dass der Branch unter
  comparer auf Ihren richtigen Branch verweist. Klicken Sie dann
  auf _Create pull request_. Geben Sie im Titel 
- >  Solution für pull-request-erstellen.md von _ihr_benutzername_  
+ >  Lösung für pull-request-erstellen.md von _ihr_benutzername_  
 
  In Beschreibung schreiben Sie als erstes `Fixes #` und wählen
  dann das Issue, das Sie eben erstellt haben.
