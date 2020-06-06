@@ -89,4 +89,8 @@ $ git push
 ## Schüler
 Fügen Sie diesem Abschnitt Ihren Namen oder Ihr Pseudonym hinzu:
 
+<<<<<<< HEAD
 Michael Kaufmann
+=======
+@kaufm
+>>>>>>> a27e43250c76cdaffd5a3b82a2de958cccb8a5cc
