@@ -14,7 +14,7 @@ namespace ToRomanNumerals
             if (arabic >= 5)
             {
                 result = "V";
-                arabic = arabic - 5;
+                arabic = arabic - 4;
             }
 
             for (int i = 1; i < arabic; i++)
