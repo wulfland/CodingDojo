@@ -6,20 +6,29 @@ namespace ToRomanNumerals
     {
         public static string ToRomanNumerals(this int arabic)
         {
+            var result = string.Empty;
+            
             if (arabic <= 0)
-                return string.Empty;
-
-            var result = "I";
+                return result;
 
             if (arabic >= 5)
             {
                 result = "V";
+                arabic = arabic - 5;
+            }
+
+            if (arabic >= 4)
+            {
+                result += "IV";
                 arabic = arabic - 4;
             }
 
-            for (int i = 1; i < arabic; i++)
+            if (arabic >= 1)
             {
-                result += "I";
+                for (int i = 0; i < arabic; i++)
+                {
+                    result += "I";
+                }
             }
 
             return result;
