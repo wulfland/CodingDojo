@@ -1,9 +1,18 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace ToRomanNumerals
 {
     public static class Extensions
     {
+        static IDictionary<int, string> constants = new Dictionary<int, string>
+        {
+            { 1, "I" },
+            { 4, "IV" },
+            { 5, "V" }
+        };
+
         public static string ToRomanNumerals(this int arabic)
         {
             var result = string.Empty;
@@ -11,16 +20,13 @@ namespace ToRomanNumerals
             if (arabic <= 0)
                 return result;
 
-            if (arabic >= 5)
+            foreach (var item in constants.Reverse())
             {
-                result = "V";
-                arabic = arabic - 5;
-            }
-
-            if (arabic >= 4)
-            {
-                result += "IV";
-                arabic = arabic - 4;
+                if (arabic >= item.Key)
+                {
+                    result += item.Value;
+                    arabic -= item.Key;
+                }
             }
 
             if (arabic >= 1)
