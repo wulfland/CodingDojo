@@ -11,6 +11,12 @@ namespace ToRomanNumerals
 
             var result = "I";
 
+            if (arabic >= 5)
+            {
+                result = "V";
+                arabic = arabic - 5;
+            }
+
             for (int i = 1; i < arabic; i++)
             {
                 result += "I";
