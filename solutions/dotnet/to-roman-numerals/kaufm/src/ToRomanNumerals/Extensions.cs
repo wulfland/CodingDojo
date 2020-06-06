@@ -4,15 +4,19 @@ namespace ToRomanNumerals
 {
     public static class Extensions
     {
-        public static string ToRomanNumerals(this int i)
+        public static string ToRomanNumerals(this int arabic)
         {
-            if (i <= 0)
+            if (arabic <= 0)
                 return string.Empty;
 
-            if (i == 1)
-                return "I";
+            var result = "I";
 
-            return "II";
+            for (int i = 1; i < arabic; i++)
+            {
+                result += "I";
+            }
+
+            return result;
         }
     }
 }
