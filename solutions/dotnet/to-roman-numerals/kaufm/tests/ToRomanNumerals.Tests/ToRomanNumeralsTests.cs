@@ -9,6 +9,8 @@ namespace ToRomanNumerals.Tests
     {
         [Theory]
         [InlineData(0, "")]
+        [InlineData(-1, "")]
+        [InlineData(int.MinValue, "")]
         [InlineData(1, "I")]
         public void ToRomanNumeralsTheory(int input, string expected)
         {
