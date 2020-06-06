@@ -9,7 +9,10 @@ namespace ToRomanNumerals
             if (i <= 0)
                 return string.Empty;
 
-            return "I";
+            if (i == 1)
+                return "I";
+
+            return "II";
         }
     }
 }
