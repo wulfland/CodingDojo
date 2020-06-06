@@ -90,4 +90,4 @@ $ git push
 Fügen Sie diesem Abschnitt Ihren Namen oder Ihr Pseudonym hinzu:
 
 Michael Kaufmann (@kaufm)
-Mike K.
+Mike K. (@wulfland)
