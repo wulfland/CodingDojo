@@ -18,6 +18,7 @@ namespace ToRomanNumerals.Tests
         [InlineData(5, "V")]
         [InlineData(8, "VIII")]
         [InlineData(12, "XII")]
+        [InlineData(32, "XXXII")]
         [InlineData(42, "XLII")]
         public void ToRomanNumeralsTheory(int input, string expected)
         {

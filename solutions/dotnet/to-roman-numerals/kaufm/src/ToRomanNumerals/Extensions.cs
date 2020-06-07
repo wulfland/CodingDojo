@@ -33,13 +33,7 @@ namespace ToRomanNumerals
                 }
             }
 
-            if (arabic >= 1)
-            {
-                for (int i = 0; i < arabic; i++)
-                {
-                    result += "I";
-                }
-            }
+            result += ToRomanNumerals(arabic);
 
             return result;
         }
