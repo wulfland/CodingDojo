@@ -1,8 +1,3 @@
-# ASP.NET Core
-# Build and test ASP.NET Core projects targeting .NET Core.
-# Add steps that run tests, create a NuGet package, deploy, and more:
-# https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
-
 trigger:
 - master
 
@@ -18,6 +13,7 @@ steps:
     command: 'build'
     projects: '**/*.sln'
     workingDirectory: 'solutions/dotnet'
+  displayName: 'Build **/*sln'
 - task: DotNetCoreCLI@2
   inputs:
     command: 'test'
@@ -25,11 +21,12 @@ steps:
     arguments: '--logger trx --no-build /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput=$(Build.SourcesDirectory)/coverage/'
     publishTestResults: false
     workingDirectory: 'solutions/dotnet'
+  displayName: 'Test **/*sln'
 
 - script: |
     dotnet tool install dotnet-reportgenerator-globaltool --tool-path . 
     ./reportgenerator "-reports:$(Build.SourcesDirectory)/coverage/coverage.opencover.xml" "-targetdir:coverage/Cobertura" "-reporttypes:Cobertura;HTMLInline;HTMLChart"
-  displayName: Run Reportgenerator on Linux
+  displayName: 'Run Reportgenerator'
 
 - task: PublishTestResults@2
   inputs:
