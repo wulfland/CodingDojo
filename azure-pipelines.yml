@@ -18,3 +18,8 @@ steps:
     command: 'build'
     projects: '**/*.sln'
     workingDirectory: 'solutions/dotnet'
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'test'
+    projects: '**/*.sln'
+    workingDirectory: 'solutions/dotnet'
