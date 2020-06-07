@@ -5,7 +5,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  buildConfiguration: 'Release'
+  buildConfiguration: 'Debug'
 
 steps:
 - task: DotNetCoreCLI@2
@@ -13,7 +13,7 @@ steps:
     command: 'build'
     projects: '**/*.sln'
     workingDirectory: 'solutions/dotnet'
-  displayName: 'Build **/*sln'
+  displayName: 'Build **/*.sln'
 - task: DotNetCoreCLI@2
   inputs:
     command: 'test'
@@ -21,7 +21,11 @@ steps:
     arguments: '--logger trx --no-build /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput=$(Build.SourcesDirectory)/coverage/'
     publishTestResults: false
     workingDirectory: 'solutions/dotnet'
-  displayName: 'Test **/*sln'
+  displayName: 'Test **/.*sln'
+
+- script: |
+    dotnet test --logger trx --no-build /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput=$(Build.SourcesDirectory)/coverage/ solutions/dotnet/to-roman-numerals/kaufm/tests/ToRomanNumerals.Tests
+  displayName: 'dotnet test'
 
 - script: |
     dotnet tool install dotnet-reportgenerator-globaltool --tool-path . 
