@@ -30,6 +30,7 @@ namespace ToRomanNumerals
                 {
                     result += item.Value;
                     arabic -= item.Key;
+                   break; 
                 }
             }
 
