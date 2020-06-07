@@ -22,4 +22,23 @@ steps:
   inputs:
     command: 'test'
     projects: '**/*.sln'
+    arguments: '--logger trx --no-build /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput=$(Build.SourcesDirectory)/coverage/'
+    publishTestResults: false
     workingDirectory: 'solutions/dotnet'
+
+- script: |
+    dotnet tool install dotnet-reportgenerator-globaltool --tool-path . 
+    ./reportgenerator "-reports:$(Build.SourcesDirectory)/coverage/coverage.opencover.xml" "-targetdir:coverage/Cobertura" "-reporttypes:Cobertura;HTMLInline;HTMLChart"
+  displayName: Run Reportgenerator on Linux
+
+- task: PublishTestResults@2
+  inputs:
+    testRunner: VSTest
+    testResultsFiles: '**/*.trx'
+    
+- task: PublishCodeCoverageResults@1
+  inputs:
+    summaryFileLocation: $(Build.SourcesDirectory)/coverage/Cobertura/Cobertura.xml
+    reportDirectory: $(Build.SourcesDirectory)/coverage/Cobertura
+    codecoverageTool: cobertura
+
