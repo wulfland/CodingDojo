@@ -6,6 +6,8 @@ namespace ToRomanNumerals
 {
     public static class Extensions
     {
+        public static string FailSonarTest = "This should cous a warning";
+
         static IDictionary<int, string> constants = new Dictionary<int, string>
         {
             {  1, "I" },
