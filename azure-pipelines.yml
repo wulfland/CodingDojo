@@ -34,8 +34,7 @@ steps:
 - script: |
     dotnet test --logger trx --no-build /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput=$(Build.SourcesDirectory)/coverage/ solutions/dotnet/to-roman-numerals/kaufm/tests/ToRomanNumerals.Tests
   displayName: 'dotnet test'
-
-  - task: SonarCloudAnalyze@1
+- task: SonarCloudAnalyze@1
 
 - script: |
     dotnet tool install dotnet-reportgenerator-globaltool --tool-path . 
