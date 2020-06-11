@@ -22,10 +22,6 @@ steps:
     projects: '**/*.sln'
     workingDirectory: 'solutions/dotnet'
   displayName: 'Build **/*.sln'
-
-- script: |
-    dotnet test --logger trx --no-build /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput=$(Build.SourcesDirectory)/coverage/ solutions/dotnet/to-roman-numerals/kaufm/tests/ToRomanNumerals.Tests
-  displayName: 'dotnet test'
   
 - task: DotNetCoreCLI@2
   inputs:
