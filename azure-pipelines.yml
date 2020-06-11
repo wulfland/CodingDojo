@@ -8,6 +8,14 @@ variables:
   buildConfiguration: 'Debug'
 
 steps:
+- task: SonarCloudPrepare@1
+  inputs:
+    SonarCloud: 'SonarCloud'
+    organization: 'wulfland-github'
+    scannerMode: 'MSBuild'
+    projectKey: 'coding-dojo'
+    projectName: 'CodingDojo'
+    extraProperties: 'sonar.cs.opencover.reportsPaths=$(Build.SourcesDirectory)/coverage/coverage.opencover.xml'
 - task: DotNetCoreCLI@2
   inputs:
     command: 'build'
@@ -27,10 +35,16 @@ steps:
     dotnet test --logger trx --no-build /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput=$(Build.SourcesDirectory)/coverage/ solutions/dotnet/to-roman-numerals/kaufm/tests/ToRomanNumerals.Tests
   displayName: 'dotnet test'
 
+  - task: SonarCloudAnalyze@1
+
 - script: |
     dotnet tool install dotnet-reportgenerator-globaltool --tool-path . 
     ./reportgenerator "-reports:$(Build.SourcesDirectory)/coverage/coverage.opencover.xml" "-targetdir:coverage/Cobertura" "-reporttypes:Cobertura;HTMLInline;HTMLChart"
   displayName: 'Run Reportgenerator'
+
+- task: SonarCloudPublish@1
+  inputs:
+    pollingTimeoutSec: '300'
 
 - task: PublishTestResults@2
   inputs:
