@@ -1,0 +1,9 @@
+# This is a comment.
+# Default Owner
+* @wulfland
+
+# Owner for dotnet solutions
+/solutions/dotnet/ @wulfland
+
+# Owner for git
+/solutions/git/ @wulfland
