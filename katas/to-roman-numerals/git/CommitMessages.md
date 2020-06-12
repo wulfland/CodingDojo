@@ -1,0 +1,1 @@
+# Konzept für Commit-Messages Kata
