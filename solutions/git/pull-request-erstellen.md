@@ -76,7 +76,7 @@ $ git push --set-upstream origin solution/git/_ihr_benutzername_
  automatisch diese Datei im Hintergrund. Laden Sie die änderungen 
  in Ihren Fork:
  ```
-$ git pull upstream master
+$ git pull upstream main
  ```  
 Öffnen Sie diese Datei und lösen Sie den Konflikt. Bauen Sie aus
 Ihrem Namen oder Pseudonym und dem GitHub Handle eine Zeile, die
