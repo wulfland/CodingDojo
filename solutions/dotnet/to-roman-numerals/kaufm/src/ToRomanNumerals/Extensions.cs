@@ -12,7 +12,9 @@ namespace ToRomanNumerals
             {  4, "IV" },
             {  5, "V" },
             {  9, "IX" },
-            { 10, "X" }
+            { 10, "X" },
+            { 40, "XL" },
+            { 50, "L" }
         };
 
         public static string ToRomanNumerals(this int arabic)
@@ -28,16 +30,11 @@ namespace ToRomanNumerals
                 {
                     result += item.Value;
                     arabic -= item.Key;
+                   break; 
                 }
             }
 
-            if (arabic >= 1)
-            {
-                for (int i = 0; i < arabic; i++)
-                {
-                    result += "I";
-                }
-            }
+            result += ToRomanNumerals(arabic);
 
             return result;
         }
