@@ -48,12 +48,12 @@ $ git push --set-upstream origin solution/git/_ihr_benutzername_
 
  Geben Sie in der Beschreibung folgende Taskliste an. Durch diese
  wird Ihnen im Issue und Pull-Request eine Progress-Bar angezeigt:  
-[ ] Fork erstellen  
-[ ] Fork klonen  
-[ ] Upstream konfigurieren  
-[ ] Branch erstellen und Änderungen durchführen  
-[ ] Issue anlegen  
-[ ] Pull-Request erstellen  
+[x] Fork erstellen  
+[x] Fork klonen  
+[x] Upstream konfigurieren  
+[x] Branch erstellen und Änderungen durchführen  
+[x] Issue anlegen  
+[x] Pull-Request erstellen  
 [ ] Änderungen aus Upstream laden und mergen
 
  Markieren Sie gleich die erldigten Tasks als erledigt.
