@@ -6,6 +6,8 @@ namespace ToRomanNumerals
 {
     public static class Extensions
     {
+        public string FieldWithCodeSmell = "I will raise a smell in sonar";
+
         static IDictionary<int, string> constants = new Dictionary<int, string>
         {
             {  1, "I" },
