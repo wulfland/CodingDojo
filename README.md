@@ -48,3 +48,5 @@ Folgende Tätigkeiten werden benötigt:
 2. Musterlösungen für Katas in den Unterstützen Sprachen
 3. Review von Lösungen
 4. Verantwortung für eine Kata oder eine Sprache/Technik übernehmen
+
+Tset 1
