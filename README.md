@@ -50,3 +50,4 @@ Folgende Tätigkeiten werden benötigt:
 4. Verantwortung für eine Kata oder eine Sprache/Technik übernehmen
 
 Tset 1
+Test 2
