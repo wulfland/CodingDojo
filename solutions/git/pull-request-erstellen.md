@@ -44,7 +44,7 @@ $ git push --set-upstream origin solution/git/_ihr_benutzername_
 6. **Ein neues Issue anlegen**: Gehen Sie auf
  [Issues](https://github.com/wulfland/CodingDojo/issues) und
  klicken Sie dort auf _New Issue_. Geben Sie folgenden Titel ein: 
- > Solution für pull-request-erstellen.md von _ihr_benutzername_
+ > Solution für Pull-Request-erstellen.md von _ihr_benutzername_
 
  Geben Sie in der Beschreibung folgende Taskliste an. Durch diese
  wird Ihnen im Issue und Pull-Request eine Progress-Bar angezeigt:  
@@ -63,7 +63,7 @@ $ git push --set-upstream origin solution/git/_ihr_benutzername_
  auf _New pull request_. Prüfen Sie, dass der Branch unter
  compare auch auf Ihren richtigen Branch verweist. Klicken Sie dann
  auf _Create pull request_. Geben Sie im Titel ein:
- >  Lösung für pull-request-erstellen.md von _ihr_benutzername_  
+ >  Lösung für Pull-Request-erstellen.md von _ihr_benutzername_  
 
  In der Beschreibung schreiben Sie als erstes `Fixes #` und wählen
  dann das Issue, das Sie eben erstellt haben aus.
