@@ -41,7 +41,7 @@ $ git commit -m "Name zu pull-request-erstellen.md hinzufügen"
 $ git push --set-upstream origin solution/git/_ihr_benutzername_
  ```
 
-5. **Ein Issue anlegen**: Gehen Sie auf
+6. **Ein neues Issue anlegen**: Gehen Sie auf
  [Issues](https://github.com/wulfland/CodingDojo/issues) und
  klicken Sie dort auf _New Issue_. Geben Sie folgenden Titel ein: 
  > Solution für pull-request-erstellen.md von _ihr_benutzername_
@@ -52,13 +52,13 @@ $ git push --set-upstream origin solution/git/_ihr_benutzername_
 - [ ] Fork klonen  
 - [ ] Upstream konfigurieren  
 - [ ] Branch erstellen und Änderungen durchführen  
-- [ ] Issue anlegen  
+- [ ] Issue anlegen
 - [ ] Pull-Request erstellen  
 - [ ] Änderungen aus Upstream laden und mergen
 
  Markieren Sie gleich alle bisher erledigten Tasks.
 
-6. **Pull-Request erstellen:** Klicken Sie unter 
+7. **Pull-Request erstellen:** Klicken Sie unter 
  [Pull requests](https://github.com/wulfland/CodingDojo/pulls)
  auf _New pull request_. Prüfen Sie, dass der Branch unter
  compare auch auf Ihren richtigen Branch verweist. Klicken Sie dann
@@ -72,7 +72,7 @@ $ git push --set-upstream origin solution/git/_ihr_benutzername_
  Fügen Sie außerdem die Taskliste aus dem Issue hinzu. Auch diese
  zeigt eine Progress-Bar für den PR an.
 
-7. **Änderungen aus Upstream laden und mergen:** Der PR ändert
+8. **Änderungen aus Upstream laden und mergen:** Der PR ändert
  automatisch diese Datei hier im Hintergrund. Laden Sie die Änderungen 
  in Ihren Fork:
  ```
