@@ -89,4 +89,4 @@ $ git push
 ## Schüler
 Fügen Sie diesem Abschnitt Ihren Namen oder Ihr Pseudonym hinzu:
 
-@kaufm
+Michael Kaufmann (@kaufm)
