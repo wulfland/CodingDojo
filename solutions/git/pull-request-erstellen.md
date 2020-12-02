@@ -90,5 +90,5 @@ $ git push
 Fügen Sie diesem Abschnitt Ihren Namen oder Ihr Pseudonym hinzu:
 
 @kaufm
-@michael-hanel
+Michael Hanel (@michael-hanel)
 Michael Kaufmann (@wulfland)
