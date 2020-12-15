@@ -1,0 +1,57 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+  buildConfiguration: 'Debug'
+
+steps:
+- task: SonarCloudPrepare@1
+  inputs:
+    SonarCloud: 'SonarCloud'
+    organization: 'wulfland-github'
+    scannerMode: 'MSBuild'
+    projectKey: 'coding-dojo'
+    projectName: 'CodingDojo'
+    extraProperties: 'sonar.cs.opencover.reportsPaths=$(Build.SourcesDirectory)/coverage/coverage.opencover.xml'
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
+    projects: '**/*.sln'
+    workingDirectory: 'solutions/dotnet'
+  displayName: 'Build **/*.sln'
+  
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'test'
+    projects: '**/*.sln'
+    arguments: '--logger trx --no-build /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput=$(Build.SourcesDirectory)/coverage/'
+    publishTestResults: false
+    workingDirectory: 'solutions/dotnet'
+  displayName: 'Test **/.*sln'
+
+
+- task: SonarCloudAnalyze@1
+
+- script: |
+    dotnet tool install dotnet-reportgenerator-globaltool --tool-path . 
+    ./reportgenerator "-reports:$(Build.SourcesDirectory)/coverage/coverage.opencover.xml" "-targetdir:coverage/Cobertura" "-reporttypes:Cobertura;HTMLInline;HTMLChart"
+  displayName: 'Run Reportgenerator'
+
+- task: SonarCloudPublish@1
+  inputs:
+    pollingTimeoutSec: '300'
+
+- task: PublishTestResults@2
+  inputs:
+    testRunner: VSTest
+    testResultsFiles: '**/*.trx'
+    
+- task: PublishCodeCoverageResults@1
+  inputs:
+    summaryFileLocation: $(Build.SourcesDirectory)/coverage/Cobertura/Cobertura.xml
+    reportDirectory: $(Build.SourcesDirectory)/coverage/Cobertura
+    codecoverageTool: cobertura
+

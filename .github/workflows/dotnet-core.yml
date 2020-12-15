@@ -2,11 +2,9 @@ name: .NET Core
 
 on:
   push:
-    branches: [ master ]
     paths: 
       - solutions/dotnet/**
   pull_request:
-    branches: [ master ]
     paths: 
       - solutions/dotnet/**
 
