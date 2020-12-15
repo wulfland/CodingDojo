@@ -90,4 +90,4 @@ $ git push
 Fügen Sie diesem Abschnitt Ihren Namen oder Ihr Pseudonym hinzu:
 
 @wahl (QWL)
-Steffen Wahl (@shw)
+Steffen Hinrich Wahl (@shw)
