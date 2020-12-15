@@ -91,4 +91,5 @@ Fügen Sie diesem Abschnitt Ihren Namen oder Ihr Pseudonym hinzu:
 
 @kaufm (MKA2)
 Michael Kaufmann (@wulfland)
+### Gelöster Merge-Konflikt
 Von `dottore-renatius` hinzugefügt.
