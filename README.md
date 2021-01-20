@@ -39,7 +39,7 @@ Ich suche noch Teilnehmer, die aktiv hier unterstützen wollen. Dabei unterschei
 
 1. __Senpai (Fortgeschrittener, Mentor)__: Erstellen von Katas oder Erweitern von bestehenden Katas. Unterstützung und Feedback in Reviews für andere Schüler.
 
-2. __Sensei (Lehrer, Meister)__: Unterstützung von Mentoren und Schülern. Pflege und Weiterentwicklung von Katas. Kann entweder die Verantwortung für eine Programmiersprache oder für eine Kata übernehmen. 
+2. __Sensei (Lehrer, Meister)__: Unterstützung von Mentoren und Schülern. Pflege und Weiterentwicklung von Katas. Kann entweder die Verantwortung für eine Programmiersprache oder für eine Kata übernehmen.
 
 Folgende Tätigkeiten werden benötigt:
 
