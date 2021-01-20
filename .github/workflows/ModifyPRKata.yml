@@ -12,7 +12,9 @@ jobs:
         fetch-depth: 0
     - name: Modify solutions/git/pull-request-erstellen.md
       run: |
+        echo "Write $GITHUB_ACTOR to "GITHUB_WORKSPACE/solutions/git/pull-request-erstellen.md"
         echo $GITHUB_ACTOR >> $GITHUB_WORKSPACE/solutions/git/pull-request-erstellen.md
+        cat $GITHUB_WORKSPACE/solutions/git/pull-request-erstellen.md
     - name: Commit files
       run: |
         git config --local user.email "5276337+wulfland@users.noreply.github.com"
@@ -22,4 +24,4 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.ref }}
+        branch: main
