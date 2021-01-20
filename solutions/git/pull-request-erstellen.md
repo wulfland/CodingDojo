@@ -91,11 +91,3 @@ Fügen Sie diesem Abschnitt Ihren Namen oder Ihr Pseudonym hinzu:
 
 @kaufm (MKA2)
 Michael Kaufmann (@wulfland)
-kaufmn3
-
-wulfland
-wulfland
-wulfland
-wulfland
-wulfland
-wulfland
