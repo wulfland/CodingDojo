@@ -1,6 +1,9 @@
 name: ModifyPRKata
 
-on: [pull_request]
+on:
+  pull_request:
+    paths: 
+      - 'solutions/git/**'
 
 jobs:
   build:
