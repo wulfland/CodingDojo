@@ -12,7 +12,7 @@ jobs:
         fetch-depth: 0
     - name: Modify solutions/git/pull-request-erstellen.md
       run: |
-        echo "Write $GITHUB_ACTOR to "GITHUB_WORKSPACE/solutions/git/pull-request-erstellen.md"
+        echo "Write $GITHUB_ACTOR to $GITHUB_WORKSPACE/solutions/git/pull-request-erstellen.md"
         echo $GITHUB_ACTOR >> $GITHUB_WORKSPACE/solutions/git/pull-request-erstellen.md
         cat $GITHUB_WORKSPACE/solutions/git/pull-request-erstellen.md
     - name: Commit files
