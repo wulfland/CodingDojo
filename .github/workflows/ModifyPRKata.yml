@@ -12,10 +12,7 @@ jobs:
         fetch-depth: 0
     - name: Modify solutions/git/pull-request-erstellen.md
       run: |
-        $username >> filename
-      env:
-        username: $GITHUB_ACTOR
-        filename: $GITHUB_WORKSPACE/solutions/git/pull-request-erstellen.md
+        $GITHUB_ACTOR >> $GITHUB_WORKSPACE/solutions/git/pull-request-erstellen.md
     - name: Commit files
       run: |
         git config --local user.email "5276337+wulfland@users.noreply.github.com"
