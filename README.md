@@ -30,7 +30,6 @@ Aktuell gibt es support für Katas in:
 
 1. .NET
 2. Git
-3. Docker
 
 Sobald es mehr Freiwillige gibt, die Feedback für andere Lösungen geben (wie zum Beispiel Python, JavaScript oder Java), dann werde ich das hier eintragen.
 
@@ -48,5 +47,3 @@ Folgende Tätigkeiten werden benötigt:
 2. Musterlösungen für Katas in den Unterstützen Sprachen
 3. Review von Lösungen
 4. Verantwortung für eine Kata oder eine Sprache/Technik übernehmen
-
-test
