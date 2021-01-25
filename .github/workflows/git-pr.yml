@@ -2,7 +2,7 @@ name: git-pr
 
 on:
   pull_request:
-    paths: solutions/git/**
+    branches: main
 
 jobs:
   build:
