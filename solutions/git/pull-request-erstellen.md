@@ -1,4 +1,4 @@
-# Die ist eine Git Kata
+# Dies ist eine Git Kata
 
 Die Git Kata dient dazu, sich mit Git, GitHub und Pull-Requests 
 vertraut zu machen. Sie ist die Basis für alle anderen Katas, da
