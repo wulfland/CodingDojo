@@ -1,8 +1,8 @@
 name: git-pr
 
 on:
-  pull_request_target:
-    branches: main
+  pull_request:
+    paths: solutions/git/**
 
 jobs:
   build:
