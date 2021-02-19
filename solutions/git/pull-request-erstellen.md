@@ -94,4 +94,3 @@ Michael Kaufmann (@wulfland)
 Björn Schmidgall (@kfbbjoern)
 kaufm (Test Neu)  
 solutions/git/kaufm4
-solutions/git/kfbbjoern1
