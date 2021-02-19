@@ -91,5 +91,6 @@ Fügen Sie diesem Abschnitt Ihren Namen oder Ihr Pseudonym hinzu:
 
 Michael Kaufmann (@kaufm)  
 Michael Kaufmann (@wulfland) 
-Gregor Biswanger (@BFreakout)
-solutions/git/GregorBiswanger
+Björn Schmidgall (@kfbbjoern)
+Änderung  
+solutions/git/kfbbjoern1
