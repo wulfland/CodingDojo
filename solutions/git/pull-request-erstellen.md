@@ -92,5 +92,4 @@ Fügen Sie diesem Abschnitt Ihren Namen oder Ihr Pseudonym hinzu:
 Michael Kaufmann (@kaufm)  
 Michael Kaufmann (@wulfland) 
 Björn Schmidgall (@kfbbjoern)
-kaufm (Test Neu)  
-solutions/git/kaufm4
+kaufm (solutions/git/kaufm4)
