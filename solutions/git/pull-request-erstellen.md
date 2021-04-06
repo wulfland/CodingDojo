@@ -94,3 +94,5 @@ Michael Kaufmann (@wulfland)
 Björn Schmidgall (@kfbbjoern)
 kaufm (solutions/git/kaufm4)
 solutions/git/kaufm4
+Michael (michael)
+solutions/git/MichaelBially
