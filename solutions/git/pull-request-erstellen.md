@@ -89,6 +89,7 @@ $ git push
 ## Schüler
 Fügen Sie diesem Abschnitt Ihren Namen oder Ihr Pseudonym hinzu:
 
+Oliver Maor (@olivermaor)
 Michael Kaufmann (@kaufm)  
 Michael Kaufmann (@wulfland) 
 Björn Schmidgall (@kfbbjoern)
@@ -96,3 +97,4 @@ kaufm (solutions/git/kaufm4)
 solutions/git/kaufm4
 Michael (michael)
 solutions/git/MichaelBially
+solutions/git/olivermaor
