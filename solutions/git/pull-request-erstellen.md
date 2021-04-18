@@ -97,3 +97,4 @@ kaufm (solutions/git/kaufm4)
 solutions/git/kaufm4
 Michael (michael)
 solutions/git/MichaelBially
+solutions/git/olivermaor
