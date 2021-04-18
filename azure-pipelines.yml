@@ -1,5 +1,7 @@
-trigger:
-- master
+pr:
+ paths:
+  include:
+      - solutions/dotnet/**
 
 pool:
   vmImage: 'ubuntu-latest'

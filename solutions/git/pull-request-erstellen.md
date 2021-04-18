@@ -1,4 +1,4 @@
-# Die ist eine Git Kata
+# Dies ist eine Git Kata
 
 Die Git Kata dient dazu, sich mit Git, GitHub und Pull-Requests 
 vertraut zu machen. Sie ist die Basis für alle anderen Katas, da
@@ -89,4 +89,13 @@ $ git push
 ## Schüler
 Fügen Sie diesem Abschnitt Ihren Namen oder Ihr Pseudonym hinzu:
 
-@kaufm
+Oliver Maor (@olivermaor)
+Michael Kaufmann (@kaufm)  
+Michael Kaufmann (@wulfland) 
+Björn Schmidgall (@kfbbjoern)
+kaufm (solutions/git/kaufm4)
+solutions/git/kaufm4
+Michael (michael)
+solutions/git/MichaelBially
+solutions/git/olivermaor
+solutions/git/olivermaor
