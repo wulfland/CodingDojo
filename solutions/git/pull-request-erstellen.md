@@ -99,3 +99,5 @@ Michael (michael)
 solutions/git/MichaelBially
 solutions/git/olivermaor
 solutions/git/olivermaor
+Nico (@nflaus)
+solutions/git/nflaus
