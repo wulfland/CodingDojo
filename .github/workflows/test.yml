@@ -7,7 +7,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - run: echo $MY_SECRET
-      - run: echo $X
+      - run: echo "Secret $MY_SECRET"
+      - run: echo "Secret $X"
         env:
           X: ${{secrets.MY_SECRET}}
