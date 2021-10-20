@@ -1,0 +1,11 @@
+on: 
+  workflow_dispatch:
+  
+jobs:
+  test:
+    runson: ubuntu-latest
+    steps:
+      - runs: echo $MY_SECRET
+      - runs: echo $X
+        with:
+          X: ${{secrets.MY_SECRET}}
