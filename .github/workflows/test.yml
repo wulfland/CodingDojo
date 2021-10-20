@@ -1,11 +1,13 @@
+name: test-workflow
+
 on: 
   workflow_dispatch:
   
 jobs:
   test:
-    runson: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
-      - runs: echo $MY_SECRET
-      - runs: echo $X
-        with:
+      - run: echo $MY_SECRET
+      - run: echo $X
+        env:
           X: ${{secrets.MY_SECRET}}
