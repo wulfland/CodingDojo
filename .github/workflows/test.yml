@@ -8,6 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Secret $MY_SECRET"
+      - run: echo "Secret ${{secrets.MY_SECRET}}"
       - run: echo "Secret $X"
         env:
           X: ${{secrets.MY_SECRET}}
