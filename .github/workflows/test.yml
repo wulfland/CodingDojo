@@ -6,6 +6,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    environment: Test
     steps:
       - run: echo "Secret $MY_SECRET"
       - run: echo "Secret ${{secrets.MY_SECRET}}"
