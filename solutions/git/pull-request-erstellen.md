@@ -33,7 +33,7 @@ $ git checkout -b solutions/git/_ihr_benutzername_
 ```
 
 5. **Änderungen durchführen:** Fügen Sie Ihren Namen oder Ihr
- Pseudonym in diese Datei unter [Schüler](##Schüler) ein und
+ Pseudonym in diese Datei unter [Schüler](mef18) ein und
  speichern Sie die Datei. 
  ```
 $ git add .
@@ -103,3 +103,4 @@ Nico (@nflaus)
 solutions/git/nflaus
 
 solutions/git/nflaus
+solutions/git/mef18
