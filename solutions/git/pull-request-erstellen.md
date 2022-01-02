@@ -106,3 +106,4 @@ solutions/git/nflaus
 solutions/git/mef18
 solutions/git/DevGri
 solutions/git/mef18 (mef18-2)
+mef18(mef18)
