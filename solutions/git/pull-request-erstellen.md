@@ -108,4 +108,4 @@ solutions/git/DevGri
 solutions/git/mef18 (mef18-2)
 mef18(mef18)
 solutions/git/mef18
-- Gabriel Rosso
+- Gabriel Rosso (ga4rosso)
