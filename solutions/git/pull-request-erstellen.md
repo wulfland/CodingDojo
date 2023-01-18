@@ -89,15 +89,14 @@ $ git push
 ## Schüler
 Fügen Sie diesem Abschnitt Ihren Namen oder Ihr Pseudonym hinzu:
 
+Michael Kaufmann (@wulfland)
+Michael Kaufmann (@kaufm)
+Sebastian (@sleif)
 Oliver Maor (@olivermaor)
-Michael Kaufmann (@kaufm)  
-Michael Kaufmann (@wulfland) 
 Björn Schmidgall (@kfbbjoern)
-kaufm (solutions/git/kaufm4)
 solutions/git/kaufm4
 Michael (michael)
 solutions/git/MichaelBially
-solutions/git/olivermaor
 solutions/git/olivermaor
 Nico (@nflaus)
 solutions/git/nflaus
@@ -108,4 +107,4 @@ mef18(mef18)
 solutions/git/mef18
 Gabriel Rosso (ga4rosso)
 solutions/git/ga4rosso
-kaufm-patch-1
+
