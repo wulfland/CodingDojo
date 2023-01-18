@@ -30,7 +30,6 @@ Aktuell gibt es Support für Katas in:
 
 1. .NET
 2. Git
-3. Docker
 
 Sobald es mehr Freiwillige gibt, die Feedback für andere Lösungen geben können (wie zum Beispiel Python, JavaScript oder Java), werde ich es hier entsprechend nachtragen.
 

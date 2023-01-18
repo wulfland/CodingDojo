@@ -1,4 +1,4 @@
-# Die ist eine Git Kata
+# Dies ist ein Beispiel für eine Git Kata
 
 Die Git Kata dient dazu, sich mit Git, GitHub und Pull-Requests 
 vertraut zu machen. Sie ist die Basis für alle anderen Katas, da
@@ -52,7 +52,7 @@ $ git push --set-upstream origin solution/git/_ihr_benutzername_
 - [ ] Fork klonen  
 - [ ] Upstream konfigurieren  
 - [ ] Branch erstellen und Änderungen durchführen  
-- [ ] Issue anlegen
+- [ ] Issue anlegen  
 - [ ] Pull-Request erstellen  
 - [ ] Änderungen aus Upstream laden und mergen
 
@@ -89,5 +89,22 @@ $ git push
 ## Schüler
 Fügen Sie diesem Abschnitt Ihren Namen oder Ihr Pseudonym hinzu:
 
-@kaufm
+Michael Kaufmann (@wulfland)
+Michael Kaufmann (@kaufm)
 @fg
+Sebastian (@sleif)
+Oliver Maor (@olivermaor)
+Björn Schmidgall (@kfbbjoern)
+solutions/git/kaufm4
+Michael (michael)
+solutions/git/MichaelBially
+solutions/git/olivermaor
+Nico (@nflaus)
+solutions/git/nflaus
+solutions/git/mef18
+solutions/git/DevGri
+solutions/git/mef18 (mef18-2)
+mef18(mef18)
+solutions/git/mef18
+Gabriel Rosso (ga4rosso)
+solutions/git/ga4rosso
