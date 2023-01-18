@@ -92,6 +92,8 @@ Fügen Sie diesem Abschnitt Ihren Namen oder Ihr Pseudonym hinzu:
 Michael Kaufmann (@wulfland)
 Michael Kaufmann (@kaufm)
 Michael Hanel (@michael-hanel)
+@MaxiMueller
+@wbressgott
 @fg
 Sebastian (@sleif)
 Oliver Maor (@olivermaor)
