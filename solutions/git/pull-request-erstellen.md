@@ -101,13 +101,11 @@ solutions/git/olivermaor
 solutions/git/olivermaor
 Nico (@nflaus)
 solutions/git/nflaus
-
-solutions/git/nflaus
 solutions/git/mef18
 solutions/git/DevGri
 solutions/git/mef18 (mef18-2)
 mef18(mef18)
 solutions/git/mef18
-- Gabriel Rosso (ga4rosso)
+Gabriel Rosso (ga4rosso)
 solutions/git/ga4rosso
-
+kaufm-patch-1
