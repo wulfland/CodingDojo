@@ -91,6 +91,7 @@ Fügen Sie diesem Abschnitt Ihren Namen oder Ihr Pseudonym hinzu:
 
 Michael Kaufmann (@wulfland)
 Michael Kaufmann (@kaufm)
+Benedikt Sandfort (@benesand)
 Christoph Zeiler (@chriz82)
 @rompe
 @SvenHavemann was here!
@@ -115,3 +116,4 @@ solutions/git/mef18
 Gabriel Rosso (ga4rosso)
 solutions/git/ga4rosso
 solutions/git/chriz82
+solutions/git/bsand
