@@ -118,3 +118,5 @@ Gabriel Rosso (ga4rosso)
 solutions/git/ga4rosso
 solutions/git/chriz82
 solutions/git/bsand
+Sabine (@Atoemchen-S)
+solutions/git/Atoemchen-S
