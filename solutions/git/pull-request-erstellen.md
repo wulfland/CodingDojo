@@ -118,3 +118,4 @@ Fügen Sie diesem Abschnitt Ihren Namen oder Ihr Pseudonym hinzu:
 - solutions/git/chriz82
 - solutions/git/bsand
 - Sabine (@Atoemchen-S)
+- Almut Plewe (@AlmutP)
