@@ -120,4 +120,3 @@ Fügen Sie diesem Abschnitt Ihren Namen oder Ihr Pseudonym hinzu:
 - Sabine (@Atoemchen-S)
 - Almut Plewe (@AlmutP)
 - Sabine_1 (@Atoemchen-S)
-solutions/git/Atoemchen-S
