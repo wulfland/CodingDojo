@@ -119,3 +119,5 @@ Fügen Sie diesem Abschnitt Ihren Namen oder Ihr Pseudonym hinzu:
 - solutions/git/bsand
 - Sabine (@Atoemchen-S)
 - Almut Plewe (@AlmutP)
+- Sabine_1 (@Atoemchen-S)
+solutions/git/Atoemchen-S
