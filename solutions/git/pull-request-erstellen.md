@@ -121,4 +121,3 @@ Fügen Sie diesem Abschnitt Ihren Namen oder Ihr Pseudonym hinzu:
 - Almut Plewe (@AlmutP)
 - Sabine_1 (@Atoemchen-S)
 - Jakob
-solutions/git/benutzername
