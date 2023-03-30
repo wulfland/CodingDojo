@@ -89,37 +89,37 @@ $ git push
 ## Schüler
 Fügen Sie diesem Abschnitt Ihren Namen oder Ihr Pseudonym hinzu:
 
-- Michael Kaufmann (@wulfland)
-- Michael Kaufmann (@kaufm)
-- Henry Vu (@HenryDevGit)
-- Benedikt Sandfort (@benesand)
-- Christoph Zeiler (@chriz82)
-- @rompe
-- @SvenHavemann was here!
-- Michael Hanel (@michael-hanel)
-- @MaxiMueller
-- @wbressgott
-- @fg
-- Sebastian (@sleif)
-- Oliver Maor (@olivermaor)
-- Björn Schmidgall (@kfbbjoern)
-- Michael (michael)
-- solutions/git/MichaelBially
-- solutions/git/olivermaor
-- Nico (@nflaus)
-- solutions/git/nflaus
-- solutions/git/mef18
-- solutions/git/DevGri
-- solutions/git/mef18 (mef18-2)
-- mef18(mef18)
-- solutions/git/mef18
-- Gabriel Rosso (ga4rosso)
-- solutions/git/ga4rosso
-- solutions/git/chriz82
-- solutions/git/bsand
-- Sabine (@Atoemchen-S)
-- Almut Plewe (@AlmutP)
-- Sabine_1 (@Atoemchen-S)
-- Jakob
 - 3dSigi_Zweig
-
+- @MaxiMueller
+- @SvenHavemann was here!
+- @fg
+- @rompe
+- @wbressgott
+- Almut Plewe (@AlmutP)
+- Benedikt Sandfort (@benesand)
+- Björn Schmidgall (@kfbbjoern)
+- Christoph Zeiler (@chriz82)
+- Gabriel Rosso (ga4rosso)
+- Henry Vu (@HenryDevGit)
+- Jakob
+- Michael (michael)
+- Michael Hanel (@michael-hanel)
+- Michael Kaufmann (@kaufm)
+- Michael Kaufmann (@wulfland)
+- Nico (@nflaus)
+- Oliver Maor (@olivermaor)
+- Pseudoexpertise
+- Sabine (@Atoemchen-S)
+- Sabine_1 (@Atoemchen-S)
+- Sebastian (@sleif)
+- mef18(mef18)
+- solutions/git/DevGri
+- solutions/git/MichaelBially
+- solutions/git/bsand
+- solutions/git/chriz82
+- solutions/git/ga4rosso
+- solutions/git/mef18
+- solutions/git/mef18
+- solutions/git/mef18 (mef18-2)
+- solutions/git/nflaus
+- solutions/git/olivermaor
