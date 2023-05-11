@@ -124,6 +124,4 @@ Fügen Sie diesem Abschnitt Ihren Namen oder Ihr Pseudonym hinzu:
 - solutions/git/nflaus
 - solutions/git/olivermaor
 - solutions/git/Pseudoexpertise
-- solutions/git/RaffaelH
-
-solutions/git/RaffaelH
+- solutions/git/RaffaelHsolutions/git/RaffaelH
