@@ -1,4 +1,4 @@
-# Dies ist ein Beispiel für eine Git Kata
+git# Dies ist ein Beispiel für eine Git Kata
 
 Die Git Kata dient dazu, sich mit Git, GitHub und Pull-Requests 
 vertraut zu machen. Sie ist die Basis für alle anderen Katas, da
@@ -124,3 +124,4 @@ Fügen Sie diesem Abschnitt Ihren Namen oder Ihr Pseudonym hinzu:
 - solutions/git/nflaus
 - solutions/git/olivermaor
 - solutions/git/Pseudoexpertise
+- Raffael
